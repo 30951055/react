@@ -1,0 +1,17 @@
+.main,.body{
+    margin-left: 25px;
+}
+.head,.body,.foot{
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 150%;
+}
+h4,.newIco{
+    float: left;
+    /* display: inline; */
+}
+button{
+    margin: 10px;
+    width: 100px;
+
+}

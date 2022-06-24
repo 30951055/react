@@ -1,0 +1,46 @@
+body{
+    margin-left: -30px;
+}
+.head{
+    display: flex;
+    /* float: left; */
+    
+}
+.navHead{
+    background-color: darkslateblue;
+    display: flex;
+    color: rgb(250, 250, 249);
+    /* list-style: none; */
+}
+.list-group-item{
+    color: azure !important;
+    background-color: darkslateblue;
+    border: none;
+    cursor: pointer;
+    margin-top: 9px;
+    font-size: larger;
+}
+li{
+    display: flex;
+    list-style: none;
+    float: left;
+    margin: 1px;
+    margin-top: 5px;
+}
+.title{
+    margin-top: 12px;
+}
+.loginBtn{
+    margin-top: 25%;
+    /* margin-left: 50%; */
+    color: black;
+}
+.myActiveStyle{
+    /* !important 代表优先级别比bootstrap更高 */
+    background-color: darkslateblue !important;
+    border: solid darkslateblue 1px;
+    border-radius: 0px !important;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
